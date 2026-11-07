@@ -114,7 +114,7 @@ export const InstructionsModal: React.FC<InstructionsModalProps> = ({ isOpen, on
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs text-slate-400">
               <div className="p-3 rounded-lg bg-slate-950/70 border border-white/5">
                 <p className="font-bold text-white mb-1">Vercel (Recommended)</p>
-                <p>Push your repository to GitHub, link with Vercel, and click Deploy. Framework is detected automatically as Vite.</p>
+                <p>Push your repository to GitHub, link with Vercel, and click Deploy. Framework is detected automatically as Vite. A pre-configured <code className="text-sky-300 font-mono">.npmrc</code> file is included to ensure clean dependency installation.</p>
               </div>
               <div className="p-3 rounded-lg bg-slate-950/70 border border-white/5">
                 <p className="font-bold text-white mb-1">GitHub Pages</p>
